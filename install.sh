@@ -8,7 +8,7 @@ function copy_directories() {
 }
 
 function install_desktop_files() {
-    cp "/disney_plus/disney_plus.desktop" "${DESKTOP_FILE_LOCATION}"
+    cp "disney_plus/disney_plus.desktop" "${DESKTOP_FILE_LOCATION}"
 }
 
 function main() {
